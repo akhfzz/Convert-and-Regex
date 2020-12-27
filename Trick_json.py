@@ -33,4 +33,4 @@ def ExceltoDatabase(file):
 	print(file_excel)
 WritetoJson("e:\\latihan pemrograman\marks.json")
 JsontoExcel("e:\\latihan pemrograman\marks.json")
-ExceltoDatabase("mysql://Akhfzz:kertosari23@localhost/Convertation")
+ExceltoDatabase("mysql://username:password@localhost/Convertation")
