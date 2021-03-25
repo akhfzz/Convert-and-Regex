@@ -23,11 +23,11 @@ objects_list = []
 for row in result:
 	d = collections.OrderedDict()
 	d["id_admin"] = row[0]
-	d["firstName"] = row[1]
-	d["lastName"] = row[2]
-	d["Street"] = row[3]
-	d["City"] = row[4]
-	d["St"] = row[5]
+	d["Nama"] = row[1]
+	d["Password"] = row[2]
+	d["Gen"] = row[3]
+	d["Jenis_Penjualan"] = row[4]
+	d["no_telp"] = row[5]
 	objects_list.append(d)
 j = json.dumps(objects_list)
 with open("app.json", "w") as f:
